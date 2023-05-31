@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+}
+
+li{
+list-style: none;
+text-align: left;
+}
+
+
+
+.container{
+    position: relative;
+    width: 740px;
+    /* height: 100vh; */
+    height: 600px;
+    padding: 10px 30px;
+    margin: 0 auto;
+    border: 1px solid rebeccapurple;
+}
+
+.input-form{
+    position: absolute;
+    top: 80%;
+    width: 740px;
+    height: 75px;
+    /* padding: 10px 30px; */
+    margin-top: 20px;
+    resize: none;
+    display: flex;
+}
+
+.input-message{
+    width: 100%;
+    height: 55px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #4463C9;
+    border-color: #4463C9;
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.01em;
+    color: green;
+    display: block;
+    /* outline: transparent; */
+}
+
+.input-btn{
+    width: 75px;
+    height: 76.6px;
+    /* background-color:grey; */
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #4463C9;
+    padding: 0;
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), */
+    /* 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
+    margin: 0;
+}
+
+.subscribe-send-icon {
+    width: 36px;
+    height: 36px;
+    fill: green;
+}
+
+.chat-area{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    overflow: auto;
+}
+
+.message-list{
+
+}
